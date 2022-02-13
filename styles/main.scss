@@ -1,1 +1,59 @@
-@import url('./_variables.scss');
+@import "_variables";
+
+body {
+  background-color: $clr-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: $ff;
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+      background-image: url("../assets/logo.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 119px;
+      height: 29px;
+      margin-bottom: 2em;
+    }
+    .hero {
+      background-image: url("../assets/tablet/image-hero.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 153px;
+    }
+  }
+  main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .sect_1 {
+      width: 292px;
+      h1 {
+        color: $clr-black;
+        font-size: 40px;
+        line-height: 44px;
+        font-weight: 900;
+        text-align: center;
+        margin: 1rem 0;
+      }
+      p {
+        margin: 0;
+        color: $clr-gray;
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+      }
+    }
+  }
+}
