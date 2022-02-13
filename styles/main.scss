@@ -54,6 +54,38 @@ body {
         line-height: 26px;
         font-weight: 300;
       }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        button {
+          width: max-content;
+          height: 58px;
+          border-radius: 40px;
+          border: none;
+          padding: 2em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          color: $clr-white;
+          line-height: 26px;
+          font-weight: 900;
+        }
+        .btn_1 {
+          background-color: $clr-dark-blue;
+          span {
+            margin-left: 1em;
+            color: $clr-light-blue;
+            opacity: 0.8;
+          }
+        }
+        .btn_2 {
+          background-color: $clr-dark-purple;
+        }
+      }
     }
   }
 }
