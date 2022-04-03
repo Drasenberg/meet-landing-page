@@ -87,5 +87,53 @@ body {
         }
       }
     }
+    .sect_2 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .num {
+        margin: 0;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 50px;
+      }
+      .images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+        .image {
+          width: 151px;
+          height: 143px;
+          background-color: gray;
+          border-radius: 10px;
+        }
+        .one {
+          background-image: url("../assets/desktop/image-woman-in-videocall.jpg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .two {
+          background-image: url("../assets/desktop/image-women-videochatting.jpg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .three {
+          background-image: url("../assets/desktop/image-men-in-meeting.jpg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .four {
+          background-image: url("../assets/desktop/image-man-texting.jpg");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
   }
 }
