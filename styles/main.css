@@ -544,4 +544,73 @@ body footer .footer_content {
     margin-right: 4em;
   }
 }
+
+body main .sect_2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .sect_2 .num {
+  margin: 0;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+body main .sect_2 .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1em;
+}
+
+body main .sect_2 .images .image {
+  width: 151px;
+  height: 143px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+body main .sect_2 .images .one {
+  background-image: url("../assets/desktop/image-woman-in-videocall.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body main .sect_2 .images .two {
+  background-image: url("../assets/desktop/image-women-videochatting.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body main .sect_2 .images .three {
+  background-image: url("../assets/desktop/image-men-in-meeting.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body main .sect_2 .images .four {
+  background-image: url("../assets/desktop/image-man-texting.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=main.css.map */
